@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DIO.CursosAPI</name>
+    </assembly>
+    <members>
+        <member name="M:DIO.CursosAPI.Controllers.CursoController.Post(DIO.CursosAPI.Models.Curso.CursoViewModelInput)">
+            <summary>
+            Permite cadastrar um curso para o usuário autenticado
+            </summary>
+            <param name="cursoViewModelInput"></param>
+            <returns>Retorna status 201 e dados do curso do usuário</returns>
+        </member>
+        <member name="M:DIO.CursosAPI.Controllers.CursoController.Get">
+            <summary>
+            Permite obter todos os cursos ativos do usuário
+            </summary>
+            <returns>Retorna status ok e dados dos cursos do usuário</returns>
+        </member>
+        <member name="M:DIO.CursosAPI.Controllers.UsuarioController.Logar(DIO.CursosAPI.Models.Usuario.LoginViewModelInput)">
+            <summary>
+            Permite autenticar um usuário cadastrado e ativo
+            </summary>
+            <param name="loginViewModelInput">View Model do login</param>
+            <returns>Retorna status OK, dados do usuário e o token</returns>
+        </member>
+    </members>
+</doc>
